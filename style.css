@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+#top-section {
+    background: url("img/Untitled design.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+
+
+
+}
+
+#top-section div {
+
+    text-align: center;
+    padding-top: 10%;
+}
+
+#top-section h1 {
+    font-size: 60px;
+
+    color: rgb(255, 255, 255);
+}
+
+#top-section p {
+    font-size: 15px;
+
+    color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+
+#top-section a,
+.bodya a {
+    color: rgb(255, 255, 255);
+    border: 15px solid tomato;
+    background-color: tomato;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+#second-top {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#second-top h1 {
+    font-size: 40px;
+
+    color: rgb(0, 0, 0);
+
+}
+
+#second-top p {
+    font-size: 15px;
+
+    color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+}
+
+.same_color {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 30px 20px;
+    margin: 5px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 8px;
+}
+
+#color-a {
+    border: 3px solid rgb(255, 111, 86);
+    background-color: rgb(226, 140, 125);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    padding: 30px 20px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+#second-donate-now {
+    color: white;
+    border: 15px solid tomato;
+    background-color: tomato;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+#second-top input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 60%;
+    background: transparent;
+    color: white;
+    text-align: center;
+}
+
+.Donate-plan {
+    text-align: center;
+    margin: 150px;
+}
+
+.Donate-plan h1 {
+    font-size: 45px;
+}
+
+.Donate-plan p {
+    color: rgb(8, 22, 36);
+}
+
+.plan {
+    margin: 0px 12.5%;
+    display: flex;
+}
+
+.plan-l {
+    width: 25%;
+    height: 250px;
+    padding: 50px 40px 50px 25px;
+    margin-left: 20px;
+
+}
+
+.plan1 {
+    background-color: rgb(197, 227, 238);
+}
+
+.plan2 {
+    background-color: pink;
+
+}
+
+.plan3 {
+    background-color: rgb(251, 218, 223);
+}
+
+.body,
+.pic,
+.pic1,
+.body1 {
+    width: 40%;
+    height: 450px;
+}
+
+.contribute {
+    margin: 50px 10%;
+    display: flex;
+
+
+}
+
+.pic img {
+    width: 100%;
+    height: 400px;
+    margin: 40px 120px;
+    border-radius: 15px;
+}
+
+.body h1,
+.body1 h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.body p,
+.body1 p {
+    font-size: 20px;
+
+}
+
+.bodya {
+
+    margin: 50px 0px;
+
+}
+
+.pic1 img {
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;
+    margin-top: 40px;
+
+}
+
+.body1 {
+    margin-left: 120px;
+}
+
+.my-updates {
+    text-align: center;
+}
+
+.my-updates h1 {
+    font-size: 50px;
+    margin-top: 120px;
+}
+
+.my-updates p {
+    font-size: 20px;
+}
+
+.email {
+    height: 200px;
+    width: 60%;
+    background-color: rgb(255, 216, 223);
+    margin: 20px 20%;
+
+}
+
+.email input {
+    margin-top: 75px;
+    height: 50px;
+    width: 35%;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+
+
+
+}
+
+.email a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 18px 25px;
+    background-color: tomato;
+    text-decoration: none;
+    border-radius: 0px 5px 5px 0px;
+    
+
+}
+
+.footer {
+    height: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer h1 {
+    color: tomato;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-family: 'Dancing Script', cursive;
+}
